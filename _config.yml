@@ -16,11 +16,11 @@
 title: Rene
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Rene's blog.
+  Rene Guo's blog.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username: ""
+github_username:  reneguo
 
 # Build settings
 markdown: CommonMarkGhPages
@@ -31,6 +31,7 @@ plugins:
 commonmark:
   options: ["SMART", "FOOTNOTES"]
   extensions: ["strikethrough", "autolink", "table", "tagfilter"]
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
