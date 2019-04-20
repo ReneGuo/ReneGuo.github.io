@@ -27,7 +27,8 @@ markdown: CommonMarkGhPages
 
 plugins:
   - jekyll-feed
-
+  - jekyll-seo-tag
+  
 commonmark:
   options: ["SMART", "FOOTNOTES"]
   extensions: ["strikethrough", "autolink", "table", "tagfilter"]

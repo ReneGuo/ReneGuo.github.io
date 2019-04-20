@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Welcome to Jiaxuan Guo's Blog!"
 date:   2019-04-20 06:51:12 +1000
 categories: jekyll update
 ---
