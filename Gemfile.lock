@@ -79,6 +79,7 @@ DEPENDENCIES
   jekyll (~> 3.7.4)
   jekyll-commonmark-ghpages
   jekyll-feed (~> 0.6)
+  jekyll-seo-tag
   minima (~> 2.0)
   tzinfo-data
 
