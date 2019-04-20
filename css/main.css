@@ -2,13 +2,13 @@ body {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
-  overflow: hidden
 }
 
 header {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 1.5rem;
-  max-width: 35rem;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-size: 2.25rem;
+  font-weight: 500;
+  max-width: 42rem;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
   margin-left: auto;
@@ -17,8 +17,49 @@ header {
   margin-bottom: 2rem;
 }
 
-hr {
-  margin-top: 1rem;
+header a {
+  text-decoration: none;
+  color: black;
+}
+
+header a:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+header small {
+  margin-left: auto;
+  font-size: 1.1rem;
+  color: grey;
+  font-weight: 300;
+}
+
+.nav, .nav a {
+  margin-left: 1rem;
+  margin-right: auto;
+  display: inline;
+  color: grey;
+  font-size: 1.25rem;
+}
+
+.navigation {
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-size: 1.25rem;
+  font-weight: 500;
+  max-width: 42rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2.5%;
+  float: right;
+}
+
+.tag {
+  display: inline;
+}
+
+.about {
+  font-size: 1rem;
+  float: center;
 }
 
 .main {
@@ -26,14 +67,28 @@ hr {
 }
 
 .content {
-  max-width: 35rem;
+  letter-spacing: 0.05rem;
+  line-height: 175%;
+  font-family: "Open Sans";
+  font-weight: 300;
+  font-size: 1.25rem;
+  max-width: 42rem;
   /* default value */
   margin-top: 2rem;
   margin-left: auto;
   margin-right: auto;
 }
 
+h1, h2, h3, h4, h5 {
+  font-weight: 500;
+}
+
+h1 {
+  margin-top: 15%;
+}
+
 .footer {
+  margin-top: 5rem;
   margin-bottom: 2rem;
   text-align: center;
 }

@@ -1,26 +1,14 @@
 ---
 layout: default
 ---
+<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/post.css">
 
 <head class="post">
-  <h1 class="post-title">{{ page.title }}</h1>
-  <time datetime="{{ page.date | date_to_xmlschema }}" class="post-date">{{ page.date | date_to_string }}</time>
-  {{ content }}
+  <h1 class="post_title">{{ page.title }}</h1>
+  <time datetime="{{ page.date | date_to_xmlschema }}" class="post_date">{{ page.date | date_to_string }}</time>
   {% seo %}
 </head>
 
-{% if site.related_posts != empty %}
-<aside class="related">
-  <h3>Related posts</h3>
-  <ul class="related-posts">
-    {% for post in site.related_posts limit:3 %}
-    <li>
-      <a href="{{ site.baseurl }}{{ post.url }}">
-        {{ post.title }}
-        <small><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_string }}</time></small>
-      </a>
-    </li>
-    {% endfor %}
-  </ul>
-</aside>
-{% endif %}
+<div class="post_content">
+  {{ content }}
+</div>

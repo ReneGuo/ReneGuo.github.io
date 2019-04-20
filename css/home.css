@@ -1,4 +1,15 @@
-.list_title {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 1.5rem;
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+.welcome {
+  margin-top: 8rem;
+  margin-bottom: 6rem;
+  font-weight: 300;
 }
