@@ -22,7 +22,7 @@
           {% assign sorted_pages = site.pages | sort:"order" %} {% for page in
           sorted_pages %} {% if page.title %}
           <li><a href="{{node.url}}">{{page.title}}</a></li>
-          {% endfor %}
+          {% endif %}{% endfor %}
 
           <!-- {% for page in pages %}{% if page.title %}
           <li>
