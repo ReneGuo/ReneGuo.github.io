@@ -1,9 +1,9 @@
 # Site settings
-title: RENE'S SECRET BASE
+title: RENE'S SECRET
 SEOTitle: RENE's Blog
 header-img: img/post-bg-desk.jpg
 email: reneguo@outlook.com
-description: "Anything about me"
+description: "才疏学浅"
 keyword: "RENE, Rene, Rene Guo, RENE Blog, GJX, 郭嘉轩"
 url: "http://reneguo.github.io" # your host, for absolute URL
 baseurl: "" # for example, '/blog' if your blog hosted on 'host/blog'
