@@ -11,12 +11,13 @@ github_repo: "https://github.com/ReneGuo/ReneGuo.github.io.git" # you code repos
 
 # Sidebar settings
 sidebar: true # whether or not using Sidebar.
-sidebar-about-description: "Cheers!"
+home-sidebar: false # whether or not using Sidebar on home page.
+sidebar-about-description: "Rene 郭嘉轩"
 sidebar-avatar: /img/Rene_avatar.JPG # use absolute URL, seeing it's used in both `/` and `/about/`
 
 # SNS settings
 RSS: false
-# weibo_username:     qiubaiying
+# weibo_username:
 # zhihu_username:
 github_username: reneguo
 # facebook_username:
