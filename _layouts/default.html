@@ -1,27 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  {% include head.html %}
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,500,700,900" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:100,700,900" rel="stylesheet">
+{% include head.html %}
 
-  <head>
-    {{ post.title }}
-  </head>
+<!-- hack iOS CSS :active style -->
+<body ontouchstart="">
 
-  <body>
-    <div class="main">
-      <div class="content">
-        {{ content }}
-      </div>
-    </div>
-  </body>
+    {% include nav.html %}
+
+    {{ content }}
+
+    {% include footer.html %}
 
 
-  <footer class="footer">
-    <small>
-      &copy; <time datetime="{{ site.time | date_to_xmlschema }}">{{ site.time | date: '%Y' }}</time>. All rights reserved.
-    </small>
-  </footer>
+<!-- Image to hack wechat -->
+<img src="/img/apple-touch-icon.png" width="0" height="0" />
+<!-- Migrate from head to bottom, no longer block render and still work -->
+
+</body>
 
 </html>
